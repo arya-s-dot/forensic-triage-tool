@@ -1,0 +1,38 @@
+# Ignore extracted media and databases
+extracted/
+*.zip
+*.db
+*.crypt*
+*.jpg
+*.png
+*.mp4
+*.mp3
+*.txt
+
+# CSV and PDF exports
+*.csv
+*.pdf
+call_logs.*
+sms_messages.*
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Backup or temp files
+*.bak
+*.tmp
+
+# Any SQLite or JSON exports
+*.sqlite
+*.json
+
+# WhatsApp specific keys (if pulled)
+key
+whatsapp.key
+*.key
+
+# Any temporary GUI output
+output/
+tmp/
+temp/
