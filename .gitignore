@@ -36,3 +36,7 @@ whatsapp.key
 output/
 tmp/
 temp/
+
+# generated files
+bin/
+gen/
