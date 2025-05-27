@@ -1,10 +1,4 @@
-# OS and editor temp files
-.DS_Store
-*.swp
-*~.nib
-Thumbs.db
-Desktop.ini
-*~
+
 
 # Ignore extracted media and databases
 extracted/
