@@ -127,7 +127,7 @@ def get_sms_messages():
 
         print(f"No data found in {uri}")
 
-    # Alternative method using sqlite3
+    
     print("\nTrying direct database access...")
     db_path = "/data/data/com.android.providers.telephony/databases/mmssms.db"
     output = run_command(['adb', 'shell', 'sqlite3', db_path, '"SELECT address, body FROM sms;"'])
@@ -218,10 +218,10 @@ def main():
         print("No device connected or unauthorized")
         return
 
-    # Check permissions
+    
     check_adb_permissions()
 
-    # Try to get messages
+    
     messages = get_sms_messages()
 
     if not messages:
