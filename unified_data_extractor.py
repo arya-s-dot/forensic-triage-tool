@@ -1,4 +1,3 @@
-# whatsapp_data_extractor.py
 import os
 import subprocess
 import shutil
