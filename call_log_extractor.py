@@ -22,7 +22,7 @@ def export_call_logs_pdf(logs, filename='call_logs.pdf'):
         leading=10
     )    
 
-    # Table headers
+    
     data = [['Number', 'Name', 'Type', 'Date', 'Duration']]
 
     for log in logs:
@@ -124,7 +124,7 @@ def format_duration(seconds_str):
         parts = []
         if h > 0:
             parts.append(f"{h}h")
-        if m > 0 or h > 0:  # show minutes if hours exist
+        if m > 0 or h > 0:  
             parts.append(f"{m}m")
         parts.append(f"{s}s")
         return ' '.join(parts)
