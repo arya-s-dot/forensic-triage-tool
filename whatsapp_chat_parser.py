@@ -17,7 +17,7 @@ def parse_chat_lines(lines):
             date, time, meridian, sender, message = match.groups()
             try:
                 dt = datetime.strptime(f"{date} {time} {meridian}", "%d/%m/%y %I:%M %p")
-            except ValueError:
+            except ValueError
                 continue
             parsed.append({
                 'datetime': dt,
