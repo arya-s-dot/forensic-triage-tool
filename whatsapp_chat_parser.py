@@ -64,7 +64,7 @@ def update_summary():
 
 # --- GUI ---
 root = tk.Tk()
-root.title("WhatsApp Chat Viewer")
+root.title("WhatsApp Chat Viewer");
 root.geometry("900x600")
 
 btn_frame = tk.Frame(root)
