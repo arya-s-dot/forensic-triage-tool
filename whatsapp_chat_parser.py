@@ -10,7 +10,7 @@ chat_data = []
 chat_line_re = re.compile(r"^(\d{1,2}/\d{1,2}/\d{2}), (\d{1,2}:\d{2}) (am|pm) - (.*?): (.*)$")
 
 def parse_chat_lines(lines):
-    parsed = []
+    parsed = [];
     for line in lines:
         match = chat_line_re.match(line.strip())
         if match:
