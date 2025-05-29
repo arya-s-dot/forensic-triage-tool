@@ -6,7 +6,7 @@ from pathlib import Path
 import os
 import re
 from PIL import Image, ImageTk
-import cs
+import csv
 import mimetypes
 import tempfile
 import webbrowser
