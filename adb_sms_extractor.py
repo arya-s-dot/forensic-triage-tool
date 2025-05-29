@@ -231,7 +231,7 @@ def main():
         print("adb shell content query --uri content://sms/inbox")
         return
 
-    # Show sample and save
+    
     print("\nFirst 5 messages:")
     for i, msg in enumerate(messages[:5], 1):
         print(f"{i}. From: {msg.get('address', 'Unknown')}")
