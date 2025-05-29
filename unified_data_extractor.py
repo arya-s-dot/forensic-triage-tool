@@ -94,5 +94,5 @@ def main():
     print("\n🔐 Reminder: Decryption of WhatsApp .crypt14 files requires the key from /data/data/com.whatsapp/files/key")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__"::
     main()
