@@ -211,7 +211,6 @@ def save_messages(messages, filename='sms_messages.csv'):
 def main():
     print("Starting SMS extraction...")
 
-    # Verify device connection
     devices = run_command(['adb', 'devices'])
     if not devices or 'device' not in devices:
         print("No device connected or unauthorized")
