@@ -106,7 +106,6 @@ def get_sms_messages():
     """Try multiple methods to extract SMS messages."""
     print("Attempting to read SMS messages...")
 
-    # Try different content URIs that might contain SMS
     content_uris = [
         'content://sms/',
         'content://sms/inbox',
