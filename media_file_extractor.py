@@ -15,7 +15,7 @@ summary_label = None
 preview_window = None
 
 
-def run_adb_query(uri)::
+def run_adb_query(uri):
     try:
         result = subprocess.run(
             ['adb', 'shell', 'content', 'query', '--uri', uri,
