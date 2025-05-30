@@ -7,7 +7,7 @@ from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
 
-def export_call_logs_pdf(logs, filename='call_logs.pdf'):
+def export_call_logs_pdf(logs, filename='call_logs.pdf')::
     doc = SimpleDocTemplate(filename, pagesize=A4)
     elements = []
     styles = getSampleStyleSheet()
