@@ -1,7 +1,7 @@
 import os
 import subprocess
 import shutil
-from datetime import datetim
+from datetime import datetime
 
 WHATSAPP_DB_PATH = "/sdcard/Android/media/com.whatsapp/WhatsApp/Databases"
 WHATSAPP_MEDIA_PATH = "/sdcard/Android/media/com.whatsapp/WhatsApp/Media"
