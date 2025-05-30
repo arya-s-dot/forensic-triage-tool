@@ -2,7 +2,7 @@ import subprocess
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from datetime import datetime
-from pathlib import Pathh
+from pathlib import Path
 import os
 import re
 from PIL import Image, ImageTk
