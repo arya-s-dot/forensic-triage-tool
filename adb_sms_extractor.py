@@ -15,7 +15,7 @@ def uses_devanagari(text):
 pdfmetrics.registerFont(TTFont('NotoDeva', 'fonts/NotoSansDevanagari-Regular.ttf'))
 
 
-def export_sms_pdf(messages, filename='sms_messages.pdf')::
+def export_sms_pdf(messages, filename='sms_messages.pdf'):
     doc = SimpleDocTemplate(filename, pagesize=A4)
     elements = []
     styles = getSampleStyleSheet()
