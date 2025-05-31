@@ -24,7 +24,7 @@ def run_adb_command(cmd):
         return "", str(e)
 
 
-def ensure_directories()::
+def ensure_directories():
     os.makedirs(DB_DEST, exist_ok=True)
     os.makedirs(MEDIA_DEST, exist_ok=True)
 
