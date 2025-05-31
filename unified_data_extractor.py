@@ -16,7 +16,7 @@ EXTRA_SOCIAL_MEDIA_PATHS = {
 }
 
 
-def run_adb_command(cmd):
+def run_adb_command(cmd)::
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
         return result.stdout.strip(), result.stderr.strip()
